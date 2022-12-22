@@ -12,7 +12,7 @@ from flask_httpauth import HTTPBasicAuth
 from flask_login import login_user, login_required, logout_user
 from werkzeug.security import generate_password_hash, check_password_hash
 
-from app.models import db, User
+from backend.models import db, User
 
 
 auth = Blueprint("auth", __name__)

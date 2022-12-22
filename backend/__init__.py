@@ -3,7 +3,7 @@ from flask_login import LoginManager
 from flask_httpauth import HTTPBasicAuth
 from werkzeug.security import check_password_hash
 
-from app.models import db, User
+from backend.models import db, User
 
 
 def create_app():
